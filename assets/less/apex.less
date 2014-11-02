@@ -7,10 +7,10 @@
 @import url(http://postach.io/static/themes/_assets/less/mixins.less);
 @import 'grid.less';
 
-@black: #000;
+@black: #040404;
 @white: #fff;
-@link: #1abc9c;
-@grey: #999;
+@link: #2e74f2;
+@grey: #939393;
 
 html {
     font-size: 100%;
@@ -21,6 +21,8 @@ body {
     font-family: 'Lora', serif;
     height: 100%;
     width: 100%;
+    background: url('../images/back.png') repeat;
+
 }
 
 ul, li {
@@ -177,29 +179,9 @@ div.header {
     a.logo {
         display: block;
         position: relative;
-        width: 85px;
-        height: 85px;
-        border: 10px solid @white;
-        background-color: @black;
         margin: 0 auto;
         margin-top: 80px;
         text-align: center;
-        .rounded(50%);
-        &:hover {
-            background-color: @link;
-        }
-        img {
-            .rounded(50%);
-        }
-        i {
-            position: relative;
-            display: block;
-            color: @white;
-            font-size: 40px;
-            line-height: 40px;
-            top: 50%;
-            margin-top: -20px;
-        }
     }
     .clearfix();
 }
