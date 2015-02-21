@@ -181,7 +181,7 @@ html {
   font-size: 100%;
 }
 body {
-  line-height: 1.65;
+  line-height: 1.45;
   font-family: 'Lora', serif;
   height: 100%;
   width: 100%;
@@ -389,14 +389,14 @@ div.post h3 {
   padding-bottom: 10px;
   margin: 0;
   line-height: default;
-  font-size: 20px;
+  font-size: 14px;
 }
 div.post h3 {
-  font-size: 16px;
+  font-size: 14px;
 }
 div.post p {
-  font-size: 16px;
-  line-height: 26px;
+  font-size: 14px;
+  line-height: 24px;
   font-weight: 200;
   margin: 0;
   padding: 10px 0 10px 0;
@@ -407,13 +407,13 @@ div.post ol li {
   margin-left: 40px;
   padding: 10px 0 10px 0;
   line-height: 16pt;
-  font-size: 20px;
+  font-size: 16px;
   font-weight: 300;
 }
 div.post blockquote {
-  font-size: 22px;
+  font-size: 18px;
   line-height: 32px;
-  font-weight: 700;
+  font-weight: 500;
   padding: 10px 0 10px 30px;
   margin-top: 10px;
   margin-bottom: 10px;
@@ -426,12 +426,12 @@ div.post h3 {
   line-height: default;
 }
 div.post h3 {
-  font-size: 22px;
+  font-size: 18px;
 }
 div.post p {
-  font-size: 20px;
-  line-height: 30px;
-  font-weight: 300;
+  font-size: 16px;
+  line-height: 28px;
+  font-weight: 200;
   margin: 0;
   padding: 10px 0 10px 0;
 }
@@ -441,13 +441,13 @@ div.post ol li {
   margin-left: 40px;
   padding: 10px 0 10px 0;
   line-height: 16pt;
-  font-size: 20px;
-  font-weight: 300;
+  font-size: 18px;
+  font-weight: 200;
 }
 div.post blockquote {
-  font-size: 22px;
-  line-height: 32px;
-  font-weight: 500;
+  font-size: 18px;
+  line-height: 30px;
+  font-weight: 300;
   padding: 10px 0 10px 30px;
   margin-top: 10px;
   margin-bottom: 10px;
@@ -464,9 +464,9 @@ div.post.whole {
   padding-bottom: 60px;
 }
 div.post div.post-body {
-  font-weight: 400;
-  font-size: 18px;
-  line-height: 28px;
+  font-weight: 200;
+  font-size: 14px;
+  line-height: 24px;
 }
 div.post div.post-body .post-content {
   display: block;
