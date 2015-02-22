@@ -110,10 +110,10 @@
         </a>
         <div class="site-description">
           <ul>
-          <li><a href="/">News</a></li>
+          <li><a href="/tag/news" class="{{ set_active('/tag/news') }}">News</a></li>
           <li><a href="/tag/works" class="{{ set_active('/tag/works') }}">Works</a></li>
           <li><a href="/tag/press" class="{{ set_active('/tag/press') }}">Press</a></li>
-          <li><a href="/tag/news" class="{{ set_active('/tag/news') }}">News</a></li>
+        
           <li><a href="/tag/blog" class="{{ set_active('/tag/blog') }}">Blog</a></li>
           {% if pages %}
           {% for page in pages %}
