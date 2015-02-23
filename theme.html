@@ -131,7 +131,7 @@
       <div class="span4 spacer"></div>
 
  {% if is_home %} 
- <a href="/">HOME</a> 
+ <li><a href="{{ page.permalink }}" class="{{ set_active(page.permalink) }}">{{ page.title }}</a></li>
   {% endif %}
       {% if is_tag %}
 
